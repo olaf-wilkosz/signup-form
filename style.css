@@ -81,6 +81,12 @@ html {
 	letter-spacing: 0.1rem;
 	color: #fff;
 	cursor: pointer;
+	transition: all 0.8s;
+}
+
+.green-bg button:hover {
+	color: #3aaf9f;
+	background-color: #fff;
 }
 
 .signup-form {
@@ -121,6 +127,14 @@ html {
 	margin-right: 2rem;
 	font-size: 2rem;
 	color: #555;
+	cursor: pointer;
+	transition: all 0.8s;
+}
+
+.social-media i:hover {
+	color: #fff;
+	background-color: #3aaf9f;
+	border-color: #3aaf9f;
 }
 
 .signup-form p {
@@ -162,4 +176,11 @@ html {
 	color: #fff;
 	margin-top: 3rem;
 	cursor: pointer;
+	transition: all 0.8s;
+}
+
+.signup-form button:hover {
+	color: #3aaf9f;
+	background-color: transparent;
+	border: 0.1rem solid #3aaf9f;
 }
