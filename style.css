@@ -195,8 +195,13 @@ html {
 	transition: all 0.8s;
 }
 
-.signup-form button:hover {
+.signup-form button:hover:not(:disabled) {
 	color: #3aaf9f;
 	background-color: transparent;
 	border: 0.1rem solid #3aaf9f;
+}
+
+.signup-form button:disabled {
+	color: #777;
+	background-color: #ddd;
 }
